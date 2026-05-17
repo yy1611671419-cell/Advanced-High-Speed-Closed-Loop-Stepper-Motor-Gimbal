@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationIOC projectPlatform="STM32H7" projectVersion="6.10.0" type="project">
+  <Attribute name="ID" value="GimbalGimbal"/>
+  <Attribute name="NAME" value="GimbalGimbal"/>
+  <Attribute name="DEVICEID" value="STM32H743ZITx"/>
+  <Attribute name="PACKAGE" value="LQFP176"/>
+  <Attribute name="SHREG498V498" value="false"/>
+  <Attribute name="IPUSER" value=""/>
+  <Attribute name="IPLOC" value="Middlewares/ST/STM32_USB_Device_Library"/>
+  <List name="ProjectModules">
+    <Mcu name="RCC" mount="RCC" mode="HSE-25Mhz|RCC_PLLRange|RCC_ClkOutput|HSE_VAL=25000000|LSE_VAL=32768|RCC_PLLCLK=RCC_PLL1|RCC_PLLCLKSRC=RCC_PLLSOURCE_HSE"/>
+    <Mcu name="GPIO" mount="GPIO" mode="GPIO_Output|GPIO_Output|GPIO_Output|GPIO_Output|GPIO_EXTI0_FALLING|GPIO_EXTI1_FALLING|GPIO_Output|GPIO_Output|GPIO_Output|GPIO_Output|GPIO_Output|GPIO_Output|GPIO_Output|GPIO_Output|GPIO_Output|GPIO_Output"/>
+    <Mcu name="FDCAN1" mount="FDCAN1" mode="FDCAN1_RX_PD0|FDCAN1_TX_PD1|FDCAN_Mode_Normal|FDCAN_Clock_Calibration|FDCAN_Data_Prescaler=1|FDCAN_Data_Sync_Jump_Width=1|FDCAN_Data_Time_Seg1=1|FDCAN_Data_Time_Seg2=1|FDCAN_Nominal_Prescaler=10|FDCAN_Nominal_Sync_Jump_Width=1|FDCAN_Nominal_Time_Seg1=13|FDCAN_Nominal_Time_Seg2=2|FDCAN_Frame_Format_Classic|FDCAN_Tx_Put_Fifo"/>
+    <Mcu name="I2C1" mount="I2C1" mode="I2C1_SCL_PB6|I2C1_SDA_PB7|I2C1_Mode_I2C|I2C1_Speed=400000"/>
+    <Mcu name="USART1" mount="USART1" mode="USART1_TX_PA9|USART1_RX_PA10|Asynchronous|WordLength_8B|Parity_None|StopBits_1|BaudRate=115200"/>
+    <Mcu name="USB_OTG_FS" mount="USB_OTG_FS" mode="USB_OTG_FS_DM_PA11|USB_OTG_FS_DP_PA12|Device"/>
+    <Mcu name="FREERTOS" mount="FREERTOS" mode="CMSIS_V2|GEN_CONFIG"/>
+    <Mcu name="NVIC" mount="NVIC" mode="NVIC"/>
+    <Mcu name="RCC" mount="RCC" mode="RCC_ClockSelection|RCC_Clk48ClockSelection"/>
+    <Mcu name="SYS" mount="SYS" mode="SYS_Tick"/>
+  </List>
+  <List name="ProjectFiles"/>
+  <List name="ProjectBuildSteps"/>
+</configurationIOC>
